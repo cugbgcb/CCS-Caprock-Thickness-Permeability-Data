@@ -1,0 +1,511 @@
+{
+  "scope": "Sensitivity of estimated intersections to sample exclusion only; not numerical tolerance convergence, corrected results or uncertainty bounds",
+  "input_sha256": {
+    "case_summary.csv": "db304d28a8f18538d3b589cae77a59ab41ac455da0e253aba36341b16ca72900",
+    "controls.json": "3f74092aca788beda5733602520f4b7da96fe9548b7f8e6ab7a7b0706e05e4ae"
+  },
+  "libraries": {
+    "python": "3.14.4",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "scipy": "1.18.1"
+  },
+  "omitted_cases": [
+    "Stage01_Scn01-05_H1.57m/k1e-15",
+    "Stage02/Stage02_H1.00m/k0.5e-17",
+    "Stage02/Stage02_H2.57m/k1e-17"
+  ],
+  "floor_pct": 1e-10,
+  "reporting_domain": {
+    "k_m2": [
+      1e-19,
+      1e-15
+    ],
+    "L_m": [
+      1.57,
+      157
+    ]
+  },
+  "results": [
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        7.314223988641915
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        4.005732455627832
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        2.46027809220702
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        12.415036117680366
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        7.7368935442460565
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        5.107054712267005
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        38.8238891610405
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        28.10549028051354
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        18.53309239233935
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        62.485737481646005
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        41.6180707017669
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        24.931511393286574
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        7.407266168914146
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        4.46159224653004
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        2.521562819598733
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        12.511524964560092
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        8.526095285052516
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        5.214285822277191
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        39.05392026071669
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        29.029447839360085
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        18.835900853833845
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        63.82079362048184
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        44.70894670578038
+      ]
+    },
+    {
+      "dataset": "all_50",
+      "samples": 50,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        29.455857038824057
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        7.314223988641915
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        4.005732455627832
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-17,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        2.46027809220702
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        12.415036117680366
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        7.7368935442460565
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        5.107054712267005
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        38.82388916104062
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        28.105490280513624
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 5e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        18.53309239233935
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        62.48573748164626
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        41.61807070176675
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "linear",
+      "k_m2": 1e-15,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        24.93151139328651
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        7.407266168914146
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        4.459949325364794
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-17,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        2.5217383155230055
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        12.562098569425546
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        8.421417447849967
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        5.200047327752177
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        39.11039092889149
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        28.938131756394128
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 5e-16,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        18.740145806316526
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 0.1,
+      "intersections_m": [
+        63.062560796447535
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 1.0,
+      "intersections_m": [
+        45.257020083314394
+      ]
+    },
+    {
+      "dataset": "omit_3_continuations",
+      "samples": 47,
+      "method": "cubic",
+      "k_m2": 1e-15,
+      "criterion_pct": 5.0,
+      "intersections_m": [
+        30.694831888551487
+      ]
+    }
+  ]
+}

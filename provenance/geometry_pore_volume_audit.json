@@ -1,0 +1,1697 @@
+{
+  "scope": "Input reference pore volume (sum of element bulk volume times ROCKS porosity); excludes pressure-dependent pore-volume changes. 50 parameter cases plus S0; continuation folders excluded.",
+  "geometry_invariant": true,
+  "cases": [
+    {
+      "case": "S0",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "3ba76da796bc22bb3166834745023fe43cb7ba98d32709274a117d807e317340"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H1.57m/k1e-15",
+      "source_sha256": {
+        "MESH": "c0a0c2950b19be330cb999bc69d65e1172c83104f25bc6dbf94905a2184eed3a",
+        "INFILE": "ff26fcfdea81ef3c10852e32053f846d497af0e5c418ced1f3612396e847a3a3"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 3,
+      "nominal_caprock_thickness_m": 1.57,
+      "connection_defined_caprock_thickness_m": 1.5699999999999998,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1682.4299999999998,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83242995358.4875,
+        "EAUCL": 157000450.7325,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9989159443.0185,
+        "EAUCL": 7850022.536625,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11229009069.331125
+    },
+    {
+      "case": "Stage01_Scn01-05_H1.57m/k1e-16",
+      "source_sha256": {
+        "MESH": "c0a0c2950b19be330cb999bc69d65e1172c83104f25bc6dbf94905a2184eed3a",
+        "INFILE": "e935be372467cced7d707058593d0df24e8f31813f1d928311d2a1a9eca5efb0"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 3,
+      "nominal_caprock_thickness_m": 1.57,
+      "connection_defined_caprock_thickness_m": 1.5699999999999998,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1682.4299999999998,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83242995358.4875,
+        "EAUCL": 157000450.7325,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9989159443.0185,
+        "EAUCL": 7850022.536625,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11229009069.331125
+    },
+    {
+      "case": "Stage01_Scn01-05_H1.57m/k1e-17",
+      "source_sha256": {
+        "MESH": "c0a0c2950b19be330cb999bc69d65e1172c83104f25bc6dbf94905a2184eed3a",
+        "INFILE": "cba38e40a04f6fe57b8b3b604ff74b6a9df7e5fc119f58e6f4859d8cb8e1fb67"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 3,
+      "nominal_caprock_thickness_m": 1.57,
+      "connection_defined_caprock_thickness_m": 1.5699999999999998,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1682.4299999999998,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83242995358.4875,
+        "EAUCL": 157000450.7325,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9989159443.0185,
+        "EAUCL": 7850022.536625,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11229009069.331125
+    },
+    {
+      "case": "Stage01_Scn01-05_H1.57m/k1e-18",
+      "source_sha256": {
+        "MESH": "c0a0c2950b19be330cb999bc69d65e1172c83104f25bc6dbf94905a2184eed3a",
+        "INFILE": "5c004611f9a550f75114d2d37aac4085db97911962391628dec68cbf95f91fc5"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 3,
+      "nominal_caprock_thickness_m": 1.57,
+      "connection_defined_caprock_thickness_m": 1.5699999999999998,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1682.4299999999998,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83242995358.4875,
+        "EAUCL": 157000450.7325,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9989159443.0185,
+        "EAUCL": 7850022.536625,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11229009069.331125
+    },
+    {
+      "case": "Stage01_Scn01-05_H1.57m/k1e-19",
+      "source_sha256": {
+        "MESH": "c0a0c2950b19be330cb999bc69d65e1172c83104f25bc6dbf94905a2184eed3a",
+        "INFILE": "0a1188fd10e99ae110c9935c72e2b30546b068cecc1d80e861f62bd0f952dd38"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 3,
+      "nominal_caprock_thickness_m": 1.57,
+      "connection_defined_caprock_thickness_m": 1.5699999999999998,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1682.4299999999998,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83242995358.4875,
+        "EAUCL": 157000450.7325,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9989159443.0185,
+        "EAUCL": 7850022.536625,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11229009069.331125
+    },
+    {
+      "case": "Stage01_Scn01-05_H15.7m/k1e-15",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "d4f3ba4b91f2e51e63c8de6fc9f9a8c621abb7d5b611bf3ba1eb72cf57c0d7f8"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage01_Scn01-05_H15.7m/k1e-16",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "a4c37e4dd109ddcc8672723f7e79bebb8acc010308b7a5e46a32f04ecdb68d36"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage01_Scn01-05_H15.7m/k1e-17",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "65ae44bba4eb6e3a4eb83b7d77970c4e54ecf51b9337589fe917ea04e185a9d5"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage01_Scn01-05_H15.7m/k1e-18",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "5c4fd8598ba4116c4177c8bb8d877fa5c817cc1fe2eaecd298d71bf8fa1a8748"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage01_Scn01-05_H15.7m/k1e-19",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "0d5f935645503a75f3509b039df046e5a44724df7fd0dc13e33e7f7d870f135c"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage01_Scn01-05_H157m/k1e-15",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "0ca48a835353c72eaa30e359be532571f02a04a88e600fd29f80bdb367665cae"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H157m/k1e-16",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "be543f0b64f4b7193d2ad0846ff1620ebeb5a988972d6648b7ffe2b7821fb18f"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H157m/k1e-17",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "e9f7fd28e5bcd136cdf54f6ad27658df1be25dcfc732e58082b3c0460f5052d4"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H157m/k1e-18",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "14fb7f3f58642534dff00deca414f819f8a23e26c1855baf5f11b978c992f600"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H157m/k1e-19",
+      "source_sha256": {
+        "MESH": "efcfde8a2c0c24a5cc730acb2386c417c1fd7b142eae8d32677870212d00cfc5",
+        "INFILE": "3ba76da796bc22bb3166834745023fe43cb7ba98d32709274a117d807e317340"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 15,
+      "nominal_caprock_thickness_m": 157.0,
+      "connection_defined_caprock_thickness_m": 157.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1527.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 67700009561.25,
+        "EAUCL": 15699986247.97,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 8124001147.349999,
+        "EAUCL": 784999312.3985,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10141000063.5245
+    },
+    {
+      "case": "Stage01_Scn01-05_H4.97m/k1e-15",
+      "source_sha256": {
+        "MESH": "fbde787881e69ec7a47ff0da9e5b38305962f1344f7555e0b732e7c968ce0d14",
+        "INFILE": "82dae37f7b29af951f1502e1837f18508eb11948af1e976d0b0d499c70335ca6"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 6,
+      "nominal_caprock_thickness_m": 4.97,
+      "connection_defined_caprock_thickness_m": 4.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1679.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82902995348.5375,
+        "EAUCL": 497000460.6825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9948359441.824501,
+        "EAUCL": 24850023.034125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11205209068.634626
+    },
+    {
+      "case": "Stage01_Scn01-05_H4.97m/k1e-16",
+      "source_sha256": {
+        "MESH": "fbde787881e69ec7a47ff0da9e5b38305962f1344f7555e0b732e7c968ce0d14",
+        "INFILE": "1e4ad39cd510f259b2d8564686a0e9ddd08ebbabe2f4be9ad8577c7384773062"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 6,
+      "nominal_caprock_thickness_m": 4.97,
+      "connection_defined_caprock_thickness_m": 4.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1679.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82902995348.5375,
+        "EAUCL": 497000460.6825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9948359441.824501,
+        "EAUCL": 24850023.034125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11205209068.634626
+    },
+    {
+      "case": "Stage01_Scn01-05_H4.97m/k1e-17",
+      "source_sha256": {
+        "MESH": "fbde787881e69ec7a47ff0da9e5b38305962f1344f7555e0b732e7c968ce0d14",
+        "INFILE": "9d4c9131fa6ad2d8ccfdfd373767962cf6680ca0a276c6bdd90401831200a2cb"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 6,
+      "nominal_caprock_thickness_m": 4.97,
+      "connection_defined_caprock_thickness_m": 4.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1679.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82902995348.5375,
+        "EAUCL": 497000460.6825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9948359441.824501,
+        "EAUCL": 24850023.034125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11205209068.634626
+    },
+    {
+      "case": "Stage01_Scn01-05_H4.97m/k1e-18",
+      "source_sha256": {
+        "MESH": "fbde787881e69ec7a47ff0da9e5b38305962f1344f7555e0b732e7c968ce0d14",
+        "INFILE": "2633c9e04082bbf8bfd4cd99b096059704ba05fef319d31e2774b4adcc62bee7"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 6,
+      "nominal_caprock_thickness_m": 4.97,
+      "connection_defined_caprock_thickness_m": 4.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1679.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82902995348.5375,
+        "EAUCL": 497000460.6825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9948359441.824501,
+        "EAUCL": 24850023.034125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11205209068.634626
+    },
+    {
+      "case": "Stage01_Scn01-05_H4.97m/k1e-19",
+      "source_sha256": {
+        "MESH": "fbde787881e69ec7a47ff0da9e5b38305962f1344f7555e0b732e7c968ce0d14",
+        "INFILE": "0d5e808eb06b1c501026bdcdf2a5817e7c17ddaa9e144c2f6eeafa5470b45aa6"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 6,
+      "nominal_caprock_thickness_m": 4.97,
+      "connection_defined_caprock_thickness_m": 4.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1679.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82902995348.5375,
+        "EAUCL": 497000460.6825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9948359441.824501,
+        "EAUCL": 24850023.034125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11205209068.634626
+    },
+    {
+      "case": "Stage01_Scn01-05_H49.7m/k1e-15",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "8f59daebd1ee26588a6e2bfb5f11225008da073e870eaa80d96f957f147c95bf"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage01_Scn01-05_H49.7m/k1e-16",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "243a5a2e3195267d25f73aa529d202d3b8327db13bd317d2007480754d6de662"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage01_Scn01-05_H49.7m/k1e-17",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "11d2f449322400d52b8994c5a8a11d6e7af62064dddaff0179c38e004e8aacfb"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage01_Scn01-05_H49.7m/k1e-18",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "c273f30c0960ac609a0c4190c5ed1979b86beb0bc029205ac088667594f346a2"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage01_Scn01-05_H49.7m/k1e-19",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "71766e63c2b3eded49942ff2dcd07e2338cf4c1238feaa8ccc9de79975019307"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage02/Stage02_H1.00m/k0.5e-17",
+      "source_sha256": {
+        "MESH": "8b75d337e0634daa0c426e71c75f5e2c29603fe18dfad8acd5b2360332d5c211",
+        "INFILE": "374179b32b8d77df784e5086dc7900d2d958da4ad9e4b5cb3e89d7ba37f53179"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 2,
+      "nominal_caprock_thickness_m": 1.0,
+      "connection_defined_caprock_thickness_m": 1.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1683.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83299995445.45,
+        "EAUCL": 100000363.77,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9995999453.453999,
+        "EAUCL": 5000018.1885,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11232999075.418499
+    },
+    {
+      "case": "Stage02/Stage02_H1.00m/k1e-17",
+      "source_sha256": {
+        "MESH": "8b75d337e0634daa0c426e71c75f5e2c29603fe18dfad8acd5b2360332d5c211",
+        "INFILE": "c852b9f3d66df4f09d8bdf7d439985776b3ff8d2ffdfcad99d294bbd5bf4b783"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 2,
+      "nominal_caprock_thickness_m": 1.0,
+      "connection_defined_caprock_thickness_m": 1.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1683.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83299995445.45,
+        "EAUCL": 100000363.77,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9995999453.453999,
+        "EAUCL": 5000018.1885,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11232999075.418499
+    },
+    {
+      "case": "Stage02/Stage02_H1.00m/k5e-17",
+      "source_sha256": {
+        "MESH": "8b75d337e0634daa0c426e71c75f5e2c29603fe18dfad8acd5b2360332d5c211",
+        "INFILE": "5438e5298a303c17aa9fe957465362d2f4ccf7dd6eb315d1ebce4e521d196a39"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 2,
+      "nominal_caprock_thickness_m": 1.0,
+      "connection_defined_caprock_thickness_m": 1.0,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1683.0,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83299995445.45,
+        "EAUCL": 100000363.77,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9995999453.453999,
+        "EAUCL": 5000018.1885,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11232999075.418499
+    },
+    {
+      "case": "Stage02/Stage02_H10.97m/k0.5e-16",
+      "source_sha256": {
+        "MESH": "b3cbf270427d2800ae3198389aad005e85d3985775adf9f928ca5081ffd2b8d7",
+        "INFILE": "c255650fec10461f21ff73ff01b47404d8f4bdafa9fc19536a57a562ee25fba6"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 8,
+      "nominal_caprock_thickness_m": 10.97,
+      "connection_defined_caprock_thickness_m": 10.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1673.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82302995366.0375,
+        "EAUCL": 1097000443.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9876359443.9245,
+        "EAUCL": 54850022.159125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11163209069.859625
+    },
+    {
+      "case": "Stage02/Stage02_H10.97m/k1e-16",
+      "source_sha256": {
+        "MESH": "b3cbf270427d2800ae3198389aad005e85d3985775adf9f928ca5081ffd2b8d7",
+        "INFILE": "d884f23d1f13dabe064bd849f68d174951e15c2ace230b873110fafbe1b0ae2e"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 8,
+      "nominal_caprock_thickness_m": 10.97,
+      "connection_defined_caprock_thickness_m": 10.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1673.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82302995366.0375,
+        "EAUCL": 1097000443.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9876359443.9245,
+        "EAUCL": 54850022.159125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11163209069.859625
+    },
+    {
+      "case": "Stage02/Stage02_H10.97m/k5e-16",
+      "source_sha256": {
+        "MESH": "b3cbf270427d2800ae3198389aad005e85d3985775adf9f928ca5081ffd2b8d7",
+        "INFILE": "c4c1b7bf04522ac954d34408bd819a6e203fb02b243396c77e76875503ef09f5"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 8,
+      "nominal_caprock_thickness_m": 10.97,
+      "connection_defined_caprock_thickness_m": 10.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1673.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82302995366.0375,
+        "EAUCL": 1097000443.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9876359443.9245,
+        "EAUCL": 54850022.159125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11163209069.859625
+    },
+    {
+      "case": "Stage02/Stage02_H15.7m/k0.5e-16",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "0f7520ed4b86426e1edcf7f8515abf4c636cde739e627af1fdc566dcc340195c"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage02/Stage02_H15.7m/k5e-16",
+      "source_sha256": {
+        "MESH": "ff39162a8659b36d8e327691f7f36040d65e08434a5f0f7d4a7014303d93d03a",
+        "INFILE": "134ee2243f358cff145e2643f9c44d8dc67582879ee2c5e495f3a2027ecb2a41"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 9,
+      "nominal_caprock_thickness_m": 15.7,
+      "connection_defined_caprock_thickness_m": 15.700000000000001,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1668.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81829996736.375,
+        "EAUCL": 1569999072.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9819599608.365,
+        "EAUCL": 78499953.64225,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11130099165.783249
+    },
+    {
+      "case": "Stage02/Stage02_H2.57m/k0.5e-17",
+      "source_sha256": {
+        "MESH": "1d43c76c95a4c2e2edbff7a60bdbe508a28bb50527af5aabdb6fac08d6a5c8f0",
+        "INFILE": "2fcbe516f4e56da4c5fde1fceac9501455fb278829b2ae58f9eb053923a2d580"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 4,
+      "nominal_caprock_thickness_m": 2.57,
+      "connection_defined_caprock_thickness_m": 2.57,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1681.43,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83142995354.7375,
+        "EAUCL": 257000454.4825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9977159442.5685,
+        "EAUCL": 12850022.724125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11222009069.068626
+    },
+    {
+      "case": "Stage02/Stage02_H2.57m/k1e-17",
+      "source_sha256": {
+        "MESH": "1d43c76c95a4c2e2edbff7a60bdbe508a28bb50527af5aabdb6fac08d6a5c8f0",
+        "INFILE": "48f05ce91a60de5896025aaa11f7e3f57c00b8f9dd373be5efa97888d8b0201b"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 4,
+      "nominal_caprock_thickness_m": 2.57,
+      "connection_defined_caprock_thickness_m": 2.57,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1681.43,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83142995354.7375,
+        "EAUCL": 257000454.4825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9977159442.5685,
+        "EAUCL": 12850022.724125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11222009069.068626
+    },
+    {
+      "case": "Stage02/Stage02_H2.57m/k5e-17",
+      "source_sha256": {
+        "MESH": "1d43c76c95a4c2e2edbff7a60bdbe508a28bb50527af5aabdb6fac08d6a5c8f0",
+        "INFILE": "e86de7d678b84329b40b133486174ba18382191eeca486e0ee2fd59d5ef75917"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 4,
+      "nominal_caprock_thickness_m": 2.57,
+      "connection_defined_caprock_thickness_m": 2.57,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1681.43,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 83142995354.7375,
+        "EAUCL": 257000454.4825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9977159442.5685,
+        "EAUCL": 12850022.724125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11222009069.068626
+    },
+    {
+      "case": "Stage02/Stage02_H23.7m/k0.5e-16",
+      "source_sha256": {
+        "MESH": "9c75b03e52cf386a3e71aa117a7c447ccc83894436866488a40ac120fac5e723",
+        "INFILE": "c194cdb1c23b1a8fd51611e998aaeb1f7f85e4d7a15db91635fb634da803968b"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 10,
+      "nominal_caprock_thickness_m": 23.7,
+      "connection_defined_caprock_thickness_m": 23.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1660.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81029996798.375,
+        "EAUCL": 2369999010.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9723599615.805,
+        "EAUCL": 118499950.54224999,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11074099170.123251
+    },
+    {
+      "case": "Stage02/Stage02_H23.7m/k1e-16",
+      "source_sha256": {
+        "MESH": "9c75b03e52cf386a3e71aa117a7c447ccc83894436866488a40ac120fac5e723",
+        "INFILE": "4a215ab83ee688ecd8076a35a991c8db9fabac05830f25c512a0417b9e68a492"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 10,
+      "nominal_caprock_thickness_m": 23.7,
+      "connection_defined_caprock_thickness_m": 23.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1660.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81029996798.375,
+        "EAUCL": 2369999010.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9723599615.805,
+        "EAUCL": 118499950.54224999,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11074099170.123251
+    },
+    {
+      "case": "Stage02/Stage02_H23.7m/k5e-16",
+      "source_sha256": {
+        "MESH": "9c75b03e52cf386a3e71aa117a7c447ccc83894436866488a40ac120fac5e723",
+        "INFILE": "f5578ac81ce143e40f485736db9c25bbbba3cf67fa7f5173336d54f6b247faef"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 10,
+      "nominal_caprock_thickness_m": 23.7,
+      "connection_defined_caprock_thickness_m": 23.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1660.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 81029996798.375,
+        "EAUCL": 2369999010.845,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9723599615.805,
+        "EAUCL": 118499950.54224999,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11074099170.123251
+    },
+    {
+      "case": "Stage02/Stage02_H33.7m/k0.5e-16",
+      "source_sha256": {
+        "MESH": "96ae451cca3d5b89b74c3dab06585c5d50a24c990e9b9bf5ca6aeeb8e8640851",
+        "INFILE": "4cb0621c5041dc3acf495d8074c6e91dd0390ebebb5d3326b6486b3bf8b5ed9e"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 11,
+      "nominal_caprock_thickness_m": 33.7,
+      "connection_defined_caprock_thickness_m": 33.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1650.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 80029996760.875,
+        "EAUCL": 3369999048.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9603599611.305,
+        "EAUCL": 168499952.41725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11004099167.498251
+    },
+    {
+      "case": "Stage02/Stage02_H33.7m/k1e-16",
+      "source_sha256": {
+        "MESH": "96ae451cca3d5b89b74c3dab06585c5d50a24c990e9b9bf5ca6aeeb8e8640851",
+        "INFILE": "d751751b0de53ba1858d0c134c699d761c98087426f932a6e2afdc36e0e2f8a9"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 11,
+      "nominal_caprock_thickness_m": 33.7,
+      "connection_defined_caprock_thickness_m": 33.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1650.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 80029996760.875,
+        "EAUCL": 3369999048.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9603599611.305,
+        "EAUCL": 168499952.41725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11004099167.498251
+    },
+    {
+      "case": "Stage02/Stage02_H33.7m/k5e-16",
+      "source_sha256": {
+        "MESH": "96ae451cca3d5b89b74c3dab06585c5d50a24c990e9b9bf5ca6aeeb8e8640851",
+        "INFILE": "c1c6b3ebfd424b877d7180df1128ff92f9b1d53d1d4b833094c48de32d64c6a8"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 11,
+      "nominal_caprock_thickness_m": 33.7,
+      "connection_defined_caprock_thickness_m": 33.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1650.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 80029996760.875,
+        "EAUCL": 3369999048.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9603599611.305,
+        "EAUCL": 168499952.41725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11004099167.498251
+    },
+    {
+      "case": "Stage02/Stage02_H49.7m/k0.5e-15",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "a0dd77ba14fc72f21a1f3771b928e2f756dd53e7b173e4129d29009220f57351"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage02/Stage02_H49.7m/k5e-15",
+      "source_sha256": {
+        "MESH": "b828ef9e1d6ee4141977a6c82eaba044c299fba0845fce58fc2e7f4b0fcd52dc",
+        "INFILE": "c7418fbcbe2dc22a7fc8ba6d6586e39e8af00e13bcc236977bb6b7e4f485b896"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 12,
+      "nominal_caprock_thickness_m": 49.7,
+      "connection_defined_caprock_thickness_m": 49.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1634.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 78429996752.875,
+        "EAUCL": 4969999056.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9411599610.345,
+        "EAUCL": 248499952.81725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10892099166.93825
+    },
+    {
+      "case": "Stage02/Stage02_H6.97m/k0.5e-17",
+      "source_sha256": {
+        "MESH": "a84585a54fcc8c42568307fea3765476a8ef8a2cba40a7114f4ee7b12804a5ac",
+        "INFILE": "fac33012d25f9124e22610f1da52b791a8f3c5ff2b853f88b7c81f26e9d974c0"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 7,
+      "nominal_caprock_thickness_m": 6.97,
+      "connection_defined_caprock_thickness_m": 6.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1677.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82702995353.0375,
+        "EAUCL": 697000456.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9924359442.3645,
+        "EAUCL": 34850022.809125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11191209068.949625
+    },
+    {
+      "case": "Stage02/Stage02_H6.97m/k1e-17",
+      "source_sha256": {
+        "MESH": "a84585a54fcc8c42568307fea3765476a8ef8a2cba40a7114f4ee7b12804a5ac",
+        "INFILE": "67961e90d8bce658dfd98c4baefabc0df3416e809fef0f3f16844b4b457f7160"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 7,
+      "nominal_caprock_thickness_m": 6.97,
+      "connection_defined_caprock_thickness_m": 6.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1677.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82702995353.0375,
+        "EAUCL": 697000456.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9924359442.3645,
+        "EAUCL": 34850022.809125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11191209068.949625
+    },
+    {
+      "case": "Stage02/Stage02_H6.97m/k5e-17",
+      "source_sha256": {
+        "MESH": "a84585a54fcc8c42568307fea3765476a8ef8a2cba40a7114f4ee7b12804a5ac",
+        "INFILE": "b4e7efaf56d8693eab204b90ed7b52f1941243733cbc9b66a09fafec8411bbce"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 7,
+      "nominal_caprock_thickness_m": 6.97,
+      "connection_defined_caprock_thickness_m": 6.97,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1677.03,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 82702995353.0375,
+        "EAUCL": 697000456.1825,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9924359442.3645,
+        "EAUCL": 34850022.809125,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 11191209068.949625
+    },
+    {
+      "case": "Stage02/Stage02_H81.7m/k0.5e-15",
+      "source_sha256": {
+        "MESH": "2c31d909a93ac6bfbf38e5fb267a1f78a9629eb31e9050097166200618c31466",
+        "INFILE": "80f2078c5ed58a6761cd10984594eea9290115a1782e8333009fdea7534e131b"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 13,
+      "nominal_caprock_thickness_m": 81.7,
+      "connection_defined_caprock_thickness_m": 81.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1602.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 75229996676.875,
+        "EAUCL": 8169999132.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9027599601.225,
+        "EAUCL": 408499956.61725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10668099161.61825
+    },
+    {
+      "case": "Stage02/Stage02_H81.7m/k1e-15",
+      "source_sha256": {
+        "MESH": "2c31d909a93ac6bfbf38e5fb267a1f78a9629eb31e9050097166200618c31466",
+        "INFILE": "d68d1021c4537b9ae14fe66d5f7077deb696e2d9a847a8e45a554d01b1718edc"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 13,
+      "nominal_caprock_thickness_m": 81.7,
+      "connection_defined_caprock_thickness_m": 81.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1602.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 75229996676.875,
+        "EAUCL": 8169999132.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9027599601.225,
+        "EAUCL": 408499956.61725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10668099161.61825
+    },
+    {
+      "case": "Stage02/Stage02_H81.7m/k5e-15",
+      "source_sha256": {
+        "MESH": "2c31d909a93ac6bfbf38e5fb267a1f78a9629eb31e9050097166200618c31466",
+        "INFILE": "4afe3b5610f184d0a7673217c471d196b3c7c40871d56bd66efe7b506c7fb96a"
+      },
+      "geometry_without_rock_assignment_sha256": "db0bfd711a8cb568f26061ba045f1b49351ab54d3ad93a071fa5ee321513f14f",
+      "elements": 26100,
+      "caprock_vertical_cells": 13,
+      "nominal_caprock_thickness_m": 81.7,
+      "connection_defined_caprock_thickness_m": 81.7,
+      "caprock_base_z_m": -1684.0,
+      "caprock_top_z_m": -1602.3,
+      "porosity": {
+        "MAQUO": 0.02,
+        "OVERB": 0.12,
+        "EAUCL": 0.05,
+        "MTSIM": 0.1
+      },
+      "bulk_volume_m3": {
+        "MAQUO": 6099999708.75,
+        "OVERB": 75229996676.875,
+        "EAUCL": 8169999132.345,
+        "MTSIM": 11099996096.01
+      },
+      "reference_pore_volume_m3": {
+        "MAQUO": 121999994.175,
+        "OVERB": 9027599601.225,
+        "EAUCL": 408499956.61725,
+        "MTSIM": 1109999609.601
+      },
+      "total_reference_pore_volume_m3": 10668099161.61825
+    }
+  ],
+  "thickness_endmember_comparison": {
+    "thin_case": "Stage01_Scn01-05_H1.57m/k1e-16",
+    "thick_case": "Stage01_Scn01-05_H157m/k1e-16",
+    "thin_reference_pore_volume_m3": 11229009069.331125,
+    "thick_reference_pore_volume_m3": 10141000063.5245,
+    "reduction_m3": 1088009005.8066254,
+    "reduction_percent_of_thin": 9.689269988909489
+  }
+}
