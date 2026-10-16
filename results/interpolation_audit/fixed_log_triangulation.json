@@ -1,0 +1,2112 @@
+{
+  "schema": "fixed-log-triangulation-v1",
+  "source_case_summary_sha256": "db304d28a8f18538d3b589cae77a59ab41ac455da0e253aba36341b16ca72900",
+  "floor_pct": 1e-10,
+  "origin_probe_sha256": "9ebf032e37cd9f055903be81fa9466c3db12b5f5bc2fd329945e1f14ef1ab6c5",
+  "canonicalization_rule": "Original public CSV order and current delivered-figure plotting stack; no choice based on desired intersections. Store exact transformed float bits and existing triangle connectivity without jitter.",
+  "libraries": {
+    "python": "3.14.5 (main, May 10 2026, 10:21:34) [Clang 21.0.0 (clang-2100.0.123.102)]",
+    "numpy": "2.4.4",
+    "matplotlib": "3.10.9",
+    "platform": "macOS-27.2-arm64-arm-64bit-Mach-O"
+  },
+  "datasets": {
+    "all_50": {
+      "samples": 50,
+      "points": [
+        {
+          "case": "Stage02/Stage02_H1.00m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "-0x1.1b48be973094dp-1"
+        },
+        {
+          "case": "Stage02/Stage02_H1.00m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "-0x1.3eaa65bdecc10p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H1.00m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "0x1.11617917d0c07p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.c5bfc871ca817p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.655afd562f7acp+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.31513cf418963p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "0x1.4068745034c3dp+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "0x1.acf752cefeb36p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "-0x1.54b69c23dcba7p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "-0x1.0273fd56abb39p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "0x1.5cb7dc359d170p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.f0a51230efe24p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.ee5883e2f5741p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.27443564255cep+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.7d4f47600628ap-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.9be4e0677acbap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.05ea9a088f834p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b7cac47c150e1p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b3336d9c01bcap-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.21718b67f2de0p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.2cd36998a2e73p-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "0x1.35673d7a11c78p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.1812de2f2bb4bp+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.fd958737ed2b3p+2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.ade3326c1dc5fp+2"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.b6a58f06483c1p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.c84ea20245da9p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.d2cae9c7d4a63p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.546fbe4694fefp+0"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.2c318836e6a15p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.91ecd54de7496p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "0x1.88d4b9904f565p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.8621c93cc2d98p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.16037e4a9bb84p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.a24685b5bb28ep-2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.74277701c3493p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.041dac21897fbp+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.efcc0274f2fdfp-3"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "0x1.5bca5656faa6ep+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.aebb0f8beeb5ep+1"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.e33bacbf529fap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "0x1.ec3df903a24bbp-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.18a72d2739ab4p+2"
+        }
+      ],
+      "triangles": [
+        [
+          7,
+          6,
+          2
+        ],
+        [
+          21,
+          28,
+          27
+        ],
+        [
+          48,
+          47,
+          32
+        ],
+        [
+          49,
+          43,
+          44
+        ],
+        [
+          10,
+          2,
+          6
+        ],
+        [
+          14,
+          21,
+          20
+        ],
+        [
+          14,
+          10,
+          6
+        ],
+        [
+          16,
+          24,
+          23
+        ],
+        [
+          17,
+          24,
+          16
+        ],
+        [
+          16,
+          13,
+          17
+        ],
+        [
+          37,
+          32,
+          47
+        ],
+        [
+          27,
+          28,
+          31
+        ],
+        [
+          40,
+          28,
+          41
+        ],
+        [
+          40,
+          31,
+          28
+        ],
+        [
+          38,
+          32,
+          33
+        ],
+        [
+          48,
+          32,
+          38
+        ],
+        [
+          43,
+          49,
+          42
+        ],
+        [
+          42,
+          49,
+          48
+        ],
+        [
+          48,
+          38,
+          42
+        ],
+        [
+          42,
+          38,
+          39
+        ],
+        [
+          9,
+          10,
+          13
+        ],
+        [
+          29,
+          24,
+          25
+        ],
+        [
+          29,
+          37,
+          24
+        ],
+        [
+          32,
+          37,
+          29
+        ],
+        [
+          21,
+          14,
+          15
+        ],
+        [
+          28,
+          21,
+          15
+        ],
+        [
+          15,
+          7,
+          41
+        ],
+        [
+          41,
+          28,
+          15
+        ],
+        [
+          18,
+          14,
+          20
+        ],
+        [
+          10,
+          14,
+          18
+        ],
+        [
+          17,
+          13,
+          18
+        ],
+        [
+          13,
+          10,
+          18
+        ],
+        [
+          12,
+          16,
+          23
+        ],
+        [
+          34,
+          40,
+          39
+        ],
+        [
+          31,
+          40,
+          34
+        ],
+        [
+          2,
+          10,
+          5
+        ],
+        [
+          1,
+          2,
+          5
+        ],
+        [
+          10,
+          9,
+          5
+        ],
+        [
+          8,
+          12,
+          4
+        ],
+        [
+          16,
+          12,
+          8
+        ],
+        [
+          8,
+          5,
+          9
+        ],
+        [
+          13,
+          16,
+          8
+        ],
+        [
+          8,
+          9,
+          13
+        ],
+        [
+          19,
+          24,
+          17
+        ],
+        [
+          25,
+          24,
+          19
+        ],
+        [
+          17,
+          18,
+          19
+        ],
+        [
+          19,
+          18,
+          20
+        ],
+        [
+          0,
+          8,
+          4
+        ],
+        [
+          0,
+          4,
+          3
+        ],
+        [
+          1,
+          5,
+          0
+        ],
+        [
+          5,
+          8,
+          0
+        ],
+        [
+          20,
+          21,
+          26
+        ],
+        [
+          26,
+          21,
+          27
+        ],
+        [
+          36,
+          35,
+          22
+        ],
+        [
+          36,
+          22,
+          23
+        ],
+        [
+          45,
+          35,
+          36
+        ],
+        [
+          36,
+          46,
+          45
+        ],
+        [
+          47,
+          46,
+          37
+        ],
+        [
+          46,
+          36,
+          37
+        ],
+        [
+          37,
+          36,
+          23
+        ],
+        [
+          23,
+          24,
+          37
+        ],
+        [
+          44,
+          43,
+          40
+        ],
+        [
+          41,
+          44,
+          40
+        ],
+        [
+          42,
+          40,
+          43
+        ],
+        [
+          39,
+          40,
+          42
+        ],
+        [
+          15,
+          14,
+          6
+        ],
+        [
+          15,
+          6,
+          7
+        ],
+        [
+          22,
+          11,
+          12
+        ],
+        [
+          23,
+          22,
+          12
+        ],
+        [
+          12,
+          11,
+          3
+        ],
+        [
+          3,
+          4,
+          12
+        ],
+        [
+          39,
+          38,
+          34
+        ],
+        [
+          34,
+          38,
+          33
+        ],
+        [
+          32,
+          29,
+          30
+        ],
+        [
+          33,
+          32,
+          30
+        ],
+        [
+          25,
+          26,
+          30
+        ],
+        [
+          30,
+          29,
+          25
+        ],
+        [
+          30,
+          34,
+          33
+        ],
+        [
+          31,
+          34,
+          30
+        ],
+        [
+          30,
+          26,
+          27
+        ],
+        [
+          27,
+          31,
+          30
+        ],
+        [
+          20,
+          26,
+          19
+        ],
+        [
+          19,
+          26,
+          25
+        ]
+      ]
+    },
+    "omit_2_altered_restarts": {
+      "samples": 48,
+      "points": [
+        {
+          "case": "Stage02/Stage02_H1.00m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "-0x1.3eaa65bdecc10p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H1.00m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "0x1.11617917d0c07p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.c5bfc871ca817p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.655afd562f7acp+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.31513cf418963p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "0x1.4068745034c3dp+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "-0x1.54b69c23dcba7p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "-0x1.0273fd56abb39p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "0x1.5cb7dc359d170p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.f0a51230efe24p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.ee5883e2f5741p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.27443564255cep+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.7d4f47600628ap-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.9be4e0677acbap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.05ea9a088f834p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b7cac47c150e1p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b3336d9c01bcap-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.21718b67f2de0p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.2cd36998a2e73p-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "0x1.35673d7a11c78p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.1812de2f2bb4bp+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.fd958737ed2b3p+2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.ade3326c1dc5fp+2"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.b6a58f06483c1p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.c84ea20245da9p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.d2cae9c7d4a63p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.546fbe4694fefp+0"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.2c318836e6a15p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.91ecd54de7496p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "0x1.88d4b9904f565p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.8621c93cc2d98p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.16037e4a9bb84p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.a24685b5bb28ep-2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.74277701c3493p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.041dac21897fbp+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.efcc0274f2fdfp-3"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "0x1.5bca5656faa6ep+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.aebb0f8beeb5ep+1"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.e33bacbf529fap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "0x1.ec3df903a24bbp-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.18a72d2739ab4p+2"
+        }
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          1,
+          13,
+          5
+        ],
+        [
+          13,
+          12,
+          5
+        ],
+        [
+          21,
+          10,
+          14
+        ],
+        [
+          16,
+          17,
+          15
+        ],
+        [
+          46,
+          45,
+          30
+        ],
+        [
+          45,
+          35,
+          30
+        ],
+        [
+          30,
+          36,
+          46
+        ],
+        [
+          19,
+          12,
+          13
+        ],
+        [
+          26,
+          13,
+          39
+        ],
+        [
+          26,
+          19,
+          13
+        ],
+        [
+          38,
+          26,
+          39
+        ],
+        [
+          38,
+          37,
+          32
+        ],
+        [
+          32,
+          29,
+          38
+        ],
+        [
+          29,
+          26,
+          38
+        ],
+        [
+          21,
+          14,
+          22
+        ],
+        [
+          22,
+          14,
+          15
+        ],
+        [
+          22,
+          17,
+          23
+        ],
+        [
+          15,
+          17,
+          22
+        ],
+        [
+          10,
+          3,
+          6
+        ],
+        [
+          6,
+          14,
+          10
+        ],
+        [
+          3,
+          0,
+          6
+        ],
+        [
+          1,
+          5,
+          8
+        ],
+        [
+          8,
+          5,
+          12
+        ],
+        [
+          12,
+          16,
+          8
+        ],
+        [
+          40,
+          47,
+          46
+        ],
+        [
+          46,
+          36,
+          40
+        ],
+        [
+          36,
+          37,
+          40
+        ],
+        [
+          36,
+          30,
+          31
+        ],
+        [
+          27,
+          22,
+          23
+        ],
+        [
+          35,
+          22,
+          27
+        ],
+        [
+          27,
+          30,
+          35
+        ],
+        [
+          12,
+          19,
+          18
+        ],
+        [
+          18,
+          16,
+          12
+        ],
+        [
+          17,
+          16,
+          18
+        ],
+        [
+          25,
+          26,
+          29
+        ],
+        [
+          19,
+          26,
+          25
+        ],
+        [
+          47,
+          40,
+          41
+        ],
+        [
+          42,
+          47,
+          41
+        ],
+        [
+          14,
+          6,
+          11
+        ],
+        [
+          15,
+          14,
+          11
+        ],
+        [
+          6,
+          7,
+          11
+        ],
+        [
+          11,
+          7,
+          8
+        ],
+        [
+          11,
+          16,
+          15
+        ],
+        [
+          11,
+          8,
+          16
+        ],
+        [
+          1,
+          8,
+          4
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          8,
+          7,
+          4
+        ],
+        [
+          4,
+          6,
+          0
+        ],
+        [
+          4,
+          7,
+          6
+        ],
+        [
+          2,
+          3,
+          9
+        ],
+        [
+          9,
+          3,
+          10
+        ],
+        [
+          21,
+          20,
+          9
+        ],
+        [
+          9,
+          10,
+          21
+        ],
+        [
+          34,
+          33,
+          20
+        ],
+        [
+          34,
+          20,
+          21
+        ],
+        [
+          43,
+          33,
+          34
+        ],
+        [
+          34,
+          44,
+          43
+        ],
+        [
+          45,
+          44,
+          34
+        ],
+        [
+          34,
+          35,
+          45
+        ],
+        [
+          22,
+          34,
+          21
+        ],
+        [
+          35,
+          34,
+          22
+        ],
+        [
+          31,
+          37,
+          36
+        ],
+        [
+          32,
+          37,
+          31
+        ],
+        [
+          31,
+          29,
+          32
+        ],
+        [
+          31,
+          28,
+          29
+        ],
+        [
+          24,
+          28,
+          27
+        ],
+        [
+          23,
+          24,
+          27
+        ],
+        [
+          28,
+          31,
+          27
+        ],
+        [
+          27,
+          31,
+          30
+        ],
+        [
+          18,
+          24,
+          23
+        ],
+        [
+          23,
+          17,
+          18
+        ],
+        [
+          29,
+          28,
+          25
+        ],
+        [
+          25,
+          28,
+          24
+        ],
+        [
+          24,
+          18,
+          25
+        ],
+        [
+          25,
+          18,
+          19
+        ],
+        [
+          41,
+          40,
+          37
+        ],
+        [
+          37,
+          38,
+          41
+        ],
+        [
+          39,
+          42,
+          41
+        ],
+        [
+          41,
+          38,
+          39
+        ]
+      ]
+    },
+    "omit_3_continuations": {
+      "samples": 47,
+      "points": [
+        {
+          "case": "Stage02/Stage02_H1.00m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "-0x1.3eaa65bdecc10p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H1.00m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x0.0p+0",
+          "log_response_hex": "0x1.11617917d0c07p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.c5bfc871ca817p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.655afd562f7acp+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "-0x1.31513cf418963p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H1.57m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.9133d64329d57p-3",
+          "log_response_hex": "0x1.4068745034c3dp+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "-0x1.54b69c23dcba7p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H2.57m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.a3c58239052a6p-2",
+          "log_response_hex": "0x1.5cb7dc359d170p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.f0a51230efe24p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.ee5883e2f5741p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "-0x1.27443564255cep+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.7d4f47600628ap-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H4.97m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.6488d317f0ce5p-1",
+          "log_response_hex": "0x1.9be4e0677acbap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k0.5e-17",
+          "log_k_hex": "-0x1.14d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.05ea9a088f834p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b7cac47c150e1p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H6.97m/k5e-17",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.afbc34e9b13dfp-1",
+          "log_response_hex": "-0x1.b3336d9c01bcap-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.21718b67f2de0p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "-0x1.2cd36998a2e73p-1"
+        },
+        {
+          "case": "Stage02/Stage02_H10.97m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.0a4afb46840ddp+0",
+          "log_response_hex": "0x1.35673d7a11c78p+0"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.1812de2f2bb4bp+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.fd958737ed2b3p+2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.ade3326c1dc5fp+2"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.b6a58f06483c1p+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "-0x1.c84ea20245da9p+0"
+        },
+        {
+          "case": "Stage02/Stage02_H15.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.d2cae9c7d4a63p-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H15.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.32267ac8653abp+0",
+          "log_response_hex": "0x1.546fbe4694fefp+0"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.2c318836e6a15p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "-0x1.91ecd54de7496p+1"
+        },
+        {
+          "case": "Stage02/Stage02_H23.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.5fef81f257eedp+0",
+          "log_response_hex": "0x1.88d4b9904f565p-2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k0.5e-16",
+          "log_k_hex": "-0x1.04d104d427de8p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.8621c93cc2d98p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.16037e4a9bb84p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H33.7m/k5e-16",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.8712c0d0a255dp+0",
+          "log_response_hex": "-0x1.a24685b5bb28ep-2"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.74277701c3493p+2"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.041dac21897fbp+1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H49.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "-0x1.efcc0274f2fdfp-3"
+        },
+        {
+          "case": "Stage02/Stage02_H49.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.b244698bf8673p+0",
+          "log_response_hex": "0x1.5bca5656faa6ep+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k0.5e-15",
+          "log_k_hex": "-0x1.e9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.aebb0f8beeb5ep+1"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "-0x1.e33bacbf529fap+0"
+        },
+        {
+          "case": "Stage02/Stage02_H81.7m/k5e-15",
+          "log_k_hex": "-0x1.c9a209a84fbd0p+3",
+          "log_L_hex": "0x1.e987627b7f206p+0",
+          "log_response_hex": "0x1.ec3df903a24bbp-1"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-19",
+          "log_k_hex": "-0x1.3000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-18",
+          "log_k_hex": "-0x1.2000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-17",
+          "log_k_hex": "-0x1.1000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-16",
+          "log_k_hex": "-0x1.0000000000000p+4",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.4000000000000p+3"
+        },
+        {
+          "case": "Stage01_Scn01-05_H157m/k1e-15",
+          "log_k_hex": "-0x1.e000000000000p+3",
+          "log_L_hex": "0x1.19133d64329d5p+1",
+          "log_response_hex": "-0x1.18a72d2739ab4p+2"
+        }
+      ],
+      "triangles": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          20,
+          9,
+          13
+        ],
+        [
+          1,
+          12,
+          5
+        ],
+        [
+          12,
+          11,
+          5
+        ],
+        [
+          1,
+          5,
+          7
+        ],
+        [
+          7,
+          5,
+          11
+        ],
+        [
+          9,
+          3,
+          6
+        ],
+        [
+          6,
+          13,
+          9
+        ],
+        [
+          3,
+          0,
+          6
+        ],
+        [
+          20,
+          13,
+          21
+        ],
+        [
+          13,
+          14,
+          21
+        ],
+        [
+          45,
+          44,
+          29
+        ],
+        [
+          44,
+          34,
+          29
+        ],
+        [
+          29,
+          35,
+          45
+        ],
+        [
+          18,
+          11,
+          12
+        ],
+        [
+          25,
+          12,
+          38
+        ],
+        [
+          25,
+          18,
+          12
+        ],
+        [
+          37,
+          25,
+          38
+        ],
+        [
+          37,
+          36,
+          31
+        ],
+        [
+          31,
+          28,
+          37
+        ],
+        [
+          28,
+          25,
+          37
+        ],
+        [
+          15,
+          7,
+          11
+        ],
+        [
+          13,
+          6,
+          10
+        ],
+        [
+          10,
+          14,
+          13
+        ],
+        [
+          10,
+          15,
+          14
+        ],
+        [
+          7,
+          15,
+          10
+        ],
+        [
+          39,
+          46,
+          45
+        ],
+        [
+          45,
+          35,
+          39
+        ],
+        [
+          35,
+          36,
+          39
+        ],
+        [
+          35,
+          29,
+          30
+        ],
+        [
+          26,
+          21,
+          22
+        ],
+        [
+          34,
+          21,
+          26
+        ],
+        [
+          26,
+          29,
+          34
+        ],
+        [
+          11,
+          18,
+          17
+        ],
+        [
+          17,
+          15,
+          11
+        ],
+        [
+          24,
+          25,
+          28
+        ],
+        [
+          18,
+          25,
+          24
+        ],
+        [
+          4,
+          6,
+          0
+        ],
+        [
+          4,
+          10,
+          6
+        ],
+        [
+          7,
+          10,
+          4
+        ],
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          1,
+          7,
+          4
+        ],
+        [
+          46,
+          39,
+          40
+        ],
+        [
+          41,
+          46,
+          40
+        ],
+        [
+          15,
+          17,
+          16
+        ],
+        [
+          16,
+          21,
+          14
+        ],
+        [
+          22,
+          21,
+          16
+        ],
+        [
+          14,
+          15,
+          16
+        ],
+        [
+          2,
+          3,
+          8
+        ],
+        [
+          8,
+          3,
+          9
+        ],
+        [
+          20,
+          19,
+          8
+        ],
+        [
+          8,
+          9,
+          20
+        ],
+        [
+          33,
+          32,
+          19
+        ],
+        [
+          33,
+          19,
+          20
+        ],
+        [
+          42,
+          32,
+          33
+        ],
+        [
+          33,
+          43,
+          42
+        ],
+        [
+          20,
+          21,
+          33
+        ],
+        [
+          33,
+          21,
+          34
+        ],
+        [
+          44,
+          43,
+          33
+        ],
+        [
+          33,
+          34,
+          44
+        ],
+        [
+          30,
+          36,
+          35
+        ],
+        [
+          31,
+          36,
+          30
+        ],
+        [
+          30,
+          28,
+          31
+        ],
+        [
+          30,
+          27,
+          28
+        ],
+        [
+          23,
+          27,
+          26
+        ],
+        [
+          22,
+          23,
+          26
+        ],
+        [
+          27,
+          30,
+          26
+        ],
+        [
+          26,
+          30,
+          29
+        ],
+        [
+          28,
+          27,
+          24
+        ],
+        [
+          24,
+          27,
+          23
+        ],
+        [
+          23,
+          17,
+          24
+        ],
+        [
+          24,
+          17,
+          18
+        ],
+        [
+          40,
+          39,
+          36
+        ],
+        [
+          36,
+          37,
+          40
+        ],
+        [
+          38,
+          41,
+          40
+        ],
+        [
+          40,
+          37,
+          38
+        ],
+        [
+          16,
+          23,
+          22
+        ],
+        [
+          16,
+          17,
+          23
+        ]
+      ]
+    }
+  },
+  "scope": "Explicit numerical interpolation reference for unchanged historical case data. No flow simulation, physical input change, continuum threshold or uncertainty certificate. Canonical current-CSV-order geometry; legacy automatic-triangulation values remain separately archived."
+}

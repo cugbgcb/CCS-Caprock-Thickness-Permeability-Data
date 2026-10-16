@@ -41,7 +41,22 @@ Run `python3 scripts/audit_historical_numerical_controls.py` to verify the archi
 
 `provenance/geometry_pore_volume_audit.json` records invariant geometry, input-based pore volumes and connection-defined caprock thicknesses for all 51 original cases. Each thickness matches its nominal value; layer counts are discretization information, not proof of grid convergence. Reproduce with `python3 scripts/audit_geometry_pore_volume.py` (standard library).
 
-`results/interpolation_audit/continuation_exclusion.json` retains comparisons of linear/cubic estimated intersections for the original and continuation-excluded case sets. At the four reported permeabilities, the linear 1% intersections remain unchanged to three decimal places; cubic estimates change by at most 1.23%. This is sampling sensitivity, not a tolerance rerun or verification of simulation accuracy. Reproduce that historical diagnostic using `python3 scripts/audit_continuation_interpolation.py` with NumPy, SciPy and Matplotlib; runtime versions and source hashes are recorded in the result.
+`results/interpolation_audit/continuation_exclusion.json` retains comparisons of linear/cubic estimated intersections for the original and continuation-excluded case sets. At the four reported permeabilities, the linear 1% intersections remain unchanged to three decimal places; cubic estimates change by at most 1.23%. This is sampling sensitivity, not a tolerance rerun or verification of simulation accuracy. Its automatic triangulation is not fully reproducible from the archived package versions alone: a fresh run differs in two full-50 cubic roots. Reversing sample order also changes some automatic diagonal choices and cubic intersections. The original triangle array was not archived, so the exact cause of the legacy discrepancy cannot be uniquely reconstructed. The historical script and result are retained unchanged; use the explicit-reference successor below for a defined, repeatable interpolation.
+
+### Explicit-reference interpolation successor
+
+`results/interpolation_audit/fixed_log_triangulation.json` stores case identities, exact transformed floating-point coordinates/responses and triangle indices for the original 50, altered-restart-excluded 48 and primary 47 cases. Geometry follows the original CSV order on the delivered-figure plotting stack, without jitter or selection against desired intersections. Supplying these triangles avoids automatic diagonal selection. The native case table and legacy result remain unchanged.
+
+With NumPy and Matplotlib installed, replay into a new file:
+
+```sh
+python3 -I scripts/replay_fixed_interpolation.py --reference results/interpolation_audit/fixed_log_triangulation.json --case-summary results/historical/case_summary.csv --output fixed-replay.json
+python3 -I scripts/replay_fixed_interpolation.py --reference results/interpolation_audit/fixed_log_triangulation.json --case-summary results/historical/case_summary.csv --reverse-order --output fixed-replay-reversed.json
+```
+
+The script refuses an existing output path. `--floor-pct 1e-6` or `--floor-pct 1e-3` recomputes the logarithmic-floor sensitivity with unchanged connectivity. SciPy is not required. `results/interpolation_audit/fixed_intersections.json` records the default-floor replay. All 72 root sets were checked on NumPy 2.4.4 / Matplotlib 3.10.9 and NumPy 2.5.3 / Matplotlib 3.11.2, including reversed case order with mapped triangle indices; their maximum intersection difference was below 3e-14 m. This reports the tested environments, not a guarantee for every platform.
+
+At k = 1e-16 m², the fixed-reference cubic 1% intersections are 8.5126696220 m for all 50, 8.4158200513 m after excluding two altered restarts, and 8.4214174478 m for the primary 47. The four primary-47 linear and cubic 1% intersections and directly sampled brackets are preserved relative to the historical diagnostic. These are numerical interpolation definitions, not additional simulations, physical thresholds, confidence intervals or convergence evidence. The maximum change caused by case exclusion at the four reported cubic 1% intersections remains approximately 1.23%.
 
 ## Primary analytical cohort
 
