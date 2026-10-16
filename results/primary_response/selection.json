@@ -1,0 +1,21 @@
+{
+  "historical_archive_commit": "3e6359f74e8df1e18c2cbcdd6502b4192703d034",
+  "archived_parameter_cases": 50,
+  "primary_parameter_cases": 47,
+  "in_domain_primary_cases": 43,
+  "retained_guard_points": 4,
+  "excluded_cases": [
+    "Stage01_Scn01-05_H1.57m/k1e-15",
+    "Stage02/Stage02_H1.00m/k0.5e-17",
+    "Stage02/Stage02_H2.57m/k1e-17"
+  ],
+  "source_sha256": {
+    "results/historical/case_summary.csv": "db304d28a8f18538d3b589cae77a59ab41ac455da0e253aba36341b16ca72900",
+    "results/interpolation_audit/continuation_exclusion.json": "cbcbf652b019febc322d3599d3369578b07a79d0cabedc40d76f776156117c1d",
+    "scripts/reproduce_primary_cohort.py": "ad5431e318801dda0e4b31bfc2f2bd8369f5c703d9973bb1e5d9bad3690244ad"
+  },
+  "primary_case_summary_sha256": "f7bf6ee7b9933eca798dc8493c243204dbe46852fca2b8bb487d5b1d390ee3e3",
+  "primary_brackets_sha256": "f5f554134e6043dcd9cfb064a0a267a2b29534862440dddd2edc70c11e5ad17d",
+  "scientific_validation_complete": false,
+  "scope": "Selection and adjacent-thickness log-linear bracket arithmetic from unchanged archived endpoints. All continuation cases excluded from primary cohort; S0 is a separate reference. No grid/time convergence, thermophysical validity, corrected simulation or extrapolated threshold is established. Reporting domain is 1.57\u2013157 m and 1e-19\u20131e-15 m\u00b2; guard points are retained for traceability. This script does not regenerate interpolated figures or read large spatial outputs."
+}

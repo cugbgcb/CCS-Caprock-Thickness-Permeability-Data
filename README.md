@@ -7,6 +7,7 @@ Public research data supporting “Thickness-Permeability Trade-off in Geologica
 - Exact study input decks (INFILE, INCON, MESH, GENER) and retained FOFT/COFT/GOFT monitor time series for 54 case directories, including continuation directories. Files are deduplicated by SHA-256; `models/manifest.json` preserves original case paths and file names.
 - Processed CO₂ mass time series for 51 completed historical cases: one reference and 50 parameter combinations.
 - Endpoint summaries, sampled threshold brackets, interval-averaged net migration rates and reference phase partitioning.
+- A separate 47-case primary cohort and recomputable criterion brackets, excluding the three continuation cases while retaining all 50 original parameter combinations in the historical archive.
 - Restoration and metric-recalculation scripts using the Python standard library.
 
 The repository contains study data, not a TOUGH software distribution. Use a separately licensed TOUGH3/ECO2N installation and its required thermophysical tables (CO2TAB) to execute the inputs. Large OUTPUT, spatial field exports, raw SAVE, executables and simulator source code are excluded. The working manuscript and experimental GPSFLOW calculations are maintained separately.
@@ -17,6 +18,7 @@ The repository contains study data, not a TOUGH software distribution. Use a sep
 python3 scripts/restore_models.py --destination restored-models
 python3 scripts/restore_models.py --destination reference --case S0 --inputs-only
 python3 scripts/update_metrics.py
+python3 scripts/reproduce_primary_cohort.py
 ```
 
 The restoration script verifies SHA-256 and refuses to overwrite changed files. Restarting a continuation may require its original SAVE file; those files are outside this archive. Model-input availability does not establish grid/time-step convergence or field validation.
@@ -37,4 +39,18 @@ Run `python3 scripts/audit_historical_numerical_controls.py` to verify the archi
 
 `provenance/geometry_pore_volume_audit.json` records invariant geometry, input-based pore volumes and connection-defined caprock thicknesses for all 51 original cases. Each thickness matches its nominal value; layer counts are discretization information, not proof of grid convergence. Reproduce with `python3 scripts/audit_geometry_pore_volume.py` (standard library).
 
-`results/interpolation_audit/continuation_exclusion.json` compares linear/cubic estimated intersections after omitting the three cases with relaxed continuation tolerances. At the four reported permeabilities, the linear 1% intersections remain unchanged to three decimal places; cubic estimates change by at most 1.23%. This is sampling sensitivity, not a tolerance rerun or verification of simulation accuracy. The original 50-case response map remains authoritative. Reproduce using `python3 scripts/audit_continuation_interpolation.py` with NumPy, SciPy and Matplotlib; runtime versions and source hashes are recorded in the result.
+`results/interpolation_audit/continuation_exclusion.json` retains comparisons of linear/cubic estimated intersections for the original and continuation-excluded case sets. At the four reported permeabilities, the linear 1% intersections remain unchanged to three decimal places; cubic estimates change by at most 1.23%. This is sampling sensitivity, not a tolerance rerun or verification of simulation accuracy. Reproduce that historical diagnostic using `python3 scripts/audit_continuation_interpolation.py` with NumPy, SciPy and Matplotlib; runtime versions and source hashes are recorded in the result.
+
+## Primary analytical cohort
+
+The current manuscript's primary response-map and criterion analyses use 47 cases without continuation segments. The historical 50-case tables remain intact for traceability. The three exclusions are:
+
+- `Stage01_Scn01-05_H1.57m/k1e-15`
+- `Stage02/Stage02_H1.00m/k0.5e-17`
+- `Stage02/Stage02_H2.57m/k1e-17`
+
+Run `python3 scripts/reproduce_primary_cohort.py` with the Python standard library. It verifies the historical source hashes and writes `results/primary_response/case_summary.csv`, `threshold_brackets.csv` and `selection.json`. The retained set has 43 cases within 1.57–157 m and 1e-19–1e-15 m² and four exterior guard points. S0 remains a separate reference case. No simulation is executed and no historical input or result is changed.
+
+The four 1% adjacent-thickness brackets are 2.57–6.97 m at 5e-17 m², 4.97–10.97 m at 1e-16 m², 23.7–33.7 m at 5e-16 m² and 15.7–49.7 m at 1e-15 m². Within-bracket log-linear estimates are diagnostics, not simulated threshold locations or confidence intervals. The retained cases do not bracket 0.1% at 5e-18 m²; the 0.1% bracket at 1e-17 m² is 1.57–4.97 m.
+
+This script reproduces cohort selection and bracket-table arithmetic, not the interpolated figures. Interpretation remains within the reporting domain; guard points do not justify extrapolation. Removing continuation cases does not establish convergence, thermophysical validity, mechanical feasibility or a regulatory minimum caprock thickness. The public archive contains historical TOUGH inputs/results; experimental GPSFLOW results remain outside this data release.
