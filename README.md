@@ -8,9 +8,10 @@ Public research data supporting “Thickness-Permeability Trade-off in Geologica
 - Processed CO₂ mass time series for 51 completed historical cases: one reference and 50 parameter combinations.
 - Endpoint summaries, sampled threshold brackets, interval-averaged net migration rates and reference phase partitioning.
 - A separate 47-case primary cohort and recomputable criterion brackets, excluding the three continuation cases while retaining all 50 original parameter combinations in the historical archive.
+- Selected historical spatial rows documenting negative reconstructed aqueous transport pressure, with explicit qualifications for affected criterion brackets.
 - Restoration and metric-recalculation scripts using the Python standard library.
 
-The repository contains study data, not a TOUGH software distribution. Use a separately licensed TOUGH3/ECO2N installation and its required thermophysical tables (CO2TAB) to execute the inputs. Large OUTPUT, spatial field exports, raw SAVE, executables and simulator source code are excluded. The working manuscript and experimental GPSFLOW calculations are maintained separately.
+The repository contains study data, not a TOUGH software distribution. Use a separately licensed TOUGH3/ECO2N installation and its required thermophysical tables (CO2TAB) to execute the inputs. Large OUTPUT, complete spatial field exports, raw SAVE, executables and simulator source code are excluded. The working manuscript and experimental GPSFLOW calculations are maintained separately.
 
 ## Restore and verify
 
@@ -19,6 +20,7 @@ python3 scripts/restore_models.py --destination restored-models
 python3 scripts/restore_models.py --destination reference --case S0 --inputs-only
 python3 scripts/update_metrics.py
 python3 scripts/reproduce_primary_cohort.py
+python3 scripts/verify_pressure_qualifications.py
 ```
 
 The restoration script verifies SHA-256 and refuses to overwrite changed files. Restarting a continuation may require its original SAVE file; those files are outside this archive. Model-input availability does not establish grid/time-step convergence or field validation.
@@ -51,6 +53,14 @@ The current manuscript's primary response-map and criterion analyses use 47 case
 
 Run `python3 scripts/reproduce_primary_cohort.py` with the Python standard library. It verifies the historical source hashes and writes `results/primary_response/case_summary.csv`, `threshold_brackets.csv` and `selection.json`. The retained set has 43 cases within 1.57–157 m and 1e-19–1e-15 m² and four exterior guard points. S0 remains a separate reference case. No simulation is executed and no historical input or result is changed.
 
-The four 1% adjacent-thickness brackets are 2.57–6.97 m at 5e-17 m², 4.97–10.97 m at 1e-16 m², 23.7–33.7 m at 5e-16 m² and 15.7–49.7 m at 1e-15 m². Within-bracket log-linear estimates are diagnostics, not simulated threshold locations or confidence intervals. The retained cases do not bracket 0.1% at 5e-18 m²; the 0.1% bracket at 1e-17 m² is 1.57–4.97 m.
+The four 1% adjacent-thickness brackets are 2.57–6.97 m at 5e-17 m², 4.97–10.97 m at 1e-16 m², 23.7–33.7 m at 5e-16 m² and provisionally 15.7–49.7 m at 1e-15 m². The last bracket shares its lower endpoint with the 5% bracket at that permeability; both carry the pressure qualification below. Within-bracket log-linear estimates are diagnostics, not simulated threshold locations or confidence intervals. The retained cases do not bracket 0.1% at 5e-18 m²; the 0.1% bracket at 1e-17 m² is 1.57–4.97 m.
 
 This script reproduces cohort selection and bracket-table arithmetic, not the interpolated figures. Interpretation remains within the reporting domain; guard points do not justify extrapolation. Removing continuation cases does not establish convergence, thermophysical validity, mechanical feasibility or a regulatory minimum caprock thickness. The public archive contains historical TOUGH inputs/results; experimental GPSFLOW results remain outside this data release.
+
+## Saved-field pressure qualification
+
+The retained historical audit covered 48 cases without continuation segments, including the separate reference, and reported 56 occupied-water states in five cases where `PRES + PCAP_GL` is negative. This is reconstructed aqueous transport pressure; reported primary pressure and occupied-water density remain positive in the selected rows. All 56 rows have zero local aqueous relative permeability, which does not exclude inflow selected from a wet upstream neighbor.
+
+Six of these states occur at the 15.7 m, 1e-15 m² endpoint. The 1% and 5% brackets of 15.7–49.7 m at that permeability remain conditional on capillary and thermophysical validation. Their table values are preserved as historical numerical results, not validated engineering design intervals. Other retained cases also contain flagged states, so qualification is not confined to this one endpoint. Unflagged saved states do not establish full EOS accuracy, unsaved-state validity or numerical convergence.
+
+`results/diagnostics/historical_aqueous_pressure_flags.json` includes the 56 original selected CSV rows, their source-export hashes, input identities, reported scan coverage and machine-readable affected-bracket flags. The standard-library verifier independently recalculates the selected pressure signs and phase/mobility checks, verifies available input objects, and identifies the affected brackets from the unchanged primary tables. Complete spatial exports are not distributed here, so the full scan coverage and absence of additional anomalies cannot be independently reproduced from this subset. No physical case is removed, corrected or recalculated by this verification.
